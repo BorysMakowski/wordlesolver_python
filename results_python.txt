@@ -1,19 +1,19 @@
 solver match pattern a - python implementation
-num of attempts: 100
-won games: 86
-lost games: 14
-job took/: 8.307209799997509 seconds
+num of attempts: 1
+won games: 1
+lost games: 0
+job took: 0.0231811999110505 seconds
 mean Wordlist size after attempt 0: 15920.0
-mean Wordlist size after attempt 1: 1338.81
-mean Wordlist size after attempt 2: 100.72
-mean Wordlist size after attempt 3: 11.46
-mean Wordlist size after attempt 4: 3.06
-mean Wordlist size after attempt 5: 1.0
+mean Wordlist size after attempt 1: 3326.0
+mean Wordlist size after attempt 2: 39.0
+mean Wordlist size after attempt 3: 7.0
+mean Wordlist size after attempt 4: 0.0
+mean Wordlist size after attempt 5: 0.0
 mean Wordlist size after attempt 6: 0.0
 Won at guess 0: 0
 Won at guess 1: 0
 Won at guess 2: 0
-Won at guess 3: 7
-Won at guess 4: 35
-Won at guess 5: 28
-Won at guess 6: 16
+Won at guess 3: 0
+Won at guess 4: 1
+Won at guess 5: 0
+Won at guess 6: 0
