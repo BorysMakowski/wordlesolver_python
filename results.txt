@@ -1,38 +1,38 @@
 solver match pattern a - python implementation
 num of attempts: 100
-won games: 83
-lost games: 17
-job took: 2.347485800040886 seconds
+won games: 85
+lost games: 15
+job took: 2.181761800078675 seconds
 mean Wordlist size after attempt 0: 15920.0
-mean Wordlist size after attempt 1: 1654.83
-mean Wordlist size after attempt 2: 127.27
-mean Wordlist size after attempt 3: 16.88
-mean Wordlist size after attempt 4: 3.61
-mean Wordlist size after attempt 5: 1.09
+mean Wordlist size after attempt 1: 1397.6
+mean Wordlist size after attempt 2: 112.0
+mean Wordlist size after attempt 3: 14.87
+mean Wordlist size after attempt 4: 4.28
+mean Wordlist size after attempt 5: 1.07
 mean Wordlist size after attempt 6: 0.0
 Won at guess 0: 0
 Won at guess 1: 0
 Won at guess 2: 0
-Won at guess 3: 7
-Won at guess 4: 26
-Won at guess 5: 34
-Won at guess 6: 16
+Won at guess 3: 9
+Won at guess 4: 15
+Won at guess 5: 37
+Won at guess 6: 24
 solver match pattern a - python implementation
 num of attempts: 100
-won games: 94
-lost games: 6
-job took: 0.7071551999542862 seconds
-mean Wordlist size after attempt 0: 6000.0
-mean Wordlist size after attempt 1: 548.9
-mean Wordlist size after attempt 2: 52.86
-mean Wordlist size after attempt 3: 7.47
-mean Wordlist size after attempt 4: 1.67
-mean Wordlist size after attempt 5: 0.55
+won games: 98
+lost games: 2
+job took: 0.3877730000531301 seconds
+mean Wordlist size after attempt 0: 3000.0
+mean Wordlist size after attempt 1: 297.65
+mean Wordlist size after attempt 2: 27.75
+mean Wordlist size after attempt 3: 4.14
+mean Wordlist size after attempt 4: 0.7
+mean Wordlist size after attempt 5: 0.17
 mean Wordlist size after attempt 6: 0.0
 Won at guess 0: 0
-Won at guess 1: 0
-Won at guess 2: 1
-Won at guess 3: 18
-Won at guess 4: 42
-Won at guess 5: 21
-Won at guess 6: 12
+Won at guess 1: 1
+Won at guess 2: 2
+Won at guess 3: 22
+Won at guess 4: 47
+Won at guess 5: 17
+Won at guess 6: 9

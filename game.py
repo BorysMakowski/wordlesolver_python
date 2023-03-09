@@ -1,8 +1,8 @@
 import random
 
 class Game:
-    def __init__(self, word_list=None):
-        self.word_list = word_list if word_list else []
+    def __init__(self, word_list):
+        self.word_list = word_list
         self.solution = "-----"
         self.tries = 0
         self.finished = False
@@ -10,8 +10,8 @@ class Game:
         if self.word_list:
             self.solution = random.choice(self.word_list)
 
-    def guess(self, guess):
-        if not guess in self.word_list:
+    def guess(self, word):
+        if not word in self.word_list:
             print("not a word")
             return "-----"
         
@@ -19,15 +19,15 @@ class Game:
 
         output = ""
         for i in range(5):
-            if guess[i] == self.solution[i]:
+            if word[i] == self.solution[i]:
                 output += self.solution[i]
             else:
-                if guess[i] in self.solution:
+                if word[i] in self.solution:
                     output += "+"
                 else:
                     output += "-"
         
-        if output == guess:
+        if output == word:
             self.finished = True
             self.result = True
             return output
