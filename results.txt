@@ -1,0 +1,38 @@
+solver match pattern a - python implementation
+num of attempts: 100
+won games: 83
+lost games: 17
+job took: 2.347485800040886 seconds
+mean Wordlist size after attempt 0: 15920.0
+mean Wordlist size after attempt 1: 1654.83
+mean Wordlist size after attempt 2: 127.27
+mean Wordlist size after attempt 3: 16.88
+mean Wordlist size after attempt 4: 3.61
+mean Wordlist size after attempt 5: 1.09
+mean Wordlist size after attempt 6: 0.0
+Won at guess 0: 0
+Won at guess 1: 0
+Won at guess 2: 0
+Won at guess 3: 7
+Won at guess 4: 26
+Won at guess 5: 34
+Won at guess 6: 16
+solver match pattern a - python implementation
+num of attempts: 100
+won games: 94
+lost games: 6
+job took: 0.7071551999542862 seconds
+mean Wordlist size after attempt 0: 6000.0
+mean Wordlist size after attempt 1: 548.9
+mean Wordlist size after attempt 2: 52.86
+mean Wordlist size after attempt 3: 7.47
+mean Wordlist size after attempt 4: 1.67
+mean Wordlist size after attempt 5: 0.55
+mean Wordlist size after attempt 6: 0.0
+Won at guess 0: 0
+Won at guess 1: 0
+Won at guess 2: 1
+Won at guess 3: 18
+Won at guess 4: 42
+Won at guess 5: 21
+Won at guess 6: 12

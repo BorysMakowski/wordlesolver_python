@@ -19,8 +19,8 @@ class SolverMatchPatternA(solver.Solver):
         rand_num = random.randint(0, len(self.reduced_word_list) - 1)
         prev_guess = self.reduced_word_list[rand_num]
         prev_result = game.guess(prev_guess)
-        # print(prev_guess);#DUCK
-        # print(prev_result);#DUCK
+        # print(prev_guess);
+        # print(prev_result);
         guess_number = 1
 
         while not game.is_finished() and not game.is_won():
@@ -47,14 +47,14 @@ class SolverMatchPatternA(solver.Solver):
             self.wordListSizes[guess_number] += len(self.reduced_word_list)
             rand_num = random.randint(0, len(self.reduced_word_list) - 1)
             prev_guess = self.reduced_word_list[rand_num]
-            # print("new size: ",len(self.reduced_word_list))#DUCK
+            # print("new size: ",len(self.reduced_word_list))
             prev_result = game.guess(prev_guess)
             guess_number += 1
 
             #self.show_pattern();
-            # print("required letters: ", self.required_letters )#DUCK
-            # print(prev_guess);#DUCK
-            # print(prev_result);#DUCK
+            # print("required letters: ", self.required_letters )
+            # print(prev_guess);
+            # print(prev_result);
 
 
 
