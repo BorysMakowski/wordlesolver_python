@@ -1,12 +1,11 @@
-import solver_match_pattern_a as smpa
+from solver_match_pattern_a import SolverMatchPatternA
 import game as g
 import random
 import time
 
-def test(file, times_to_run, word_list, print_to_console = True):
+def test(solver, file, times_to_run, word_list, print_to_console = True):
 
     start = time.perf_counter()
-    solver = smpa.SolverMatchPatternA(word_list)
 
     for i in range(times_to_run):
         if print_to_console is True:

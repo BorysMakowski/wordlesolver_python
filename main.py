@@ -6,9 +6,11 @@ if __name__ == '__main__':
     times_to_run = 100;
     file = open("results.txt", "w")
 
-    ws.test(file, times_to_run, word_list, False)
+    solver = ws.SolverMatchPatternA(word_list)
+
+    ws.test(solver, file, times_to_run, word_list, False)
     ws.reduce_word_list(word_list, 3000)
-    ws.test(file, times_to_run, word_list, False)
+    ws.test(solver, file, times_to_run, word_list, False)
 
     file.close()
 
