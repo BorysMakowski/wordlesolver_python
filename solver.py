@@ -1,3 +1,4 @@
+from typing import List
 from abc import ABC, abstractmethod
 
 class Solver(ABC):
@@ -12,14 +13,14 @@ class Solver(ABC):
     def solve(self, game):
         pass
 
-    def get_times_won(self):
+    def get_times_won(self) -> int:
         return self.timesWon
 
-    def get_times_lost(self):
+    def get_times_lost(self) -> int:
         return self.timesLost
 
-    def get_word_list_sizes(self):
+    def get_word_list_sizes(self) -> List[int]:
         return self.wordListSizes
 
-    def get_won_at_guess(self):
+    def get_won_at_guess(self) -> List[int]:
         return self.wonAtGuess

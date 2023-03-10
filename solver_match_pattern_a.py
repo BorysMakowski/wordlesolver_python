@@ -1,6 +1,7 @@
 import random
 import solver
 import time
+from typing import List, Any
 
 class SolverMatchPatternA(solver.Solver):
     def __init__(self, word_list):
@@ -74,7 +75,7 @@ class SolverMatchPatternA(solver.Solver):
             for j in range(97, 123):
                 self.pattern[i].append(chr(j))
 
-    def apply_pattern(self):
+    def apply_pattern(self) -> List[Any]:
         output=[]
         for word in self.reduced_word_list:
             if self.matches_pattern(word) and self.contains_required_letters(word):

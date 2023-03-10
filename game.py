@@ -40,10 +40,10 @@ class Game:
     def get_solution(self):
         return self.solution
 
-    def is_finished(self):
+    def is_finished(self) -> bool:
         return self.finished
 
-    def is_won(self):
+    def is_won(self) -> bool:
         return self.result
 
     def get_word_list(self):
