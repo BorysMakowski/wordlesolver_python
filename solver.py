@@ -1,11 +1,14 @@
-class Solver:
+from abc import ABC, abstractmethod
+
+class Solver(ABC):
     def __init__(self, word_list):
         self.wordList = word_list
         self.timesWon = 0
         self.timesLost = 0
-        self.wordListSizes = [0, 0, 0, 0, 0, 0, 0]
+        self.wordListSizes = [0, 0, 0, 0, 0, 0]
         self.wonAtGuess = [0, 0, 0, 0, 0, 0, 0]
 
+    @abstractmethod
     def solve(self, game):
         pass
 

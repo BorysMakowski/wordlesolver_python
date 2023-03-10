@@ -3,17 +3,15 @@ import random
 class Game:
     def __init__(self, word_list):
         self.word_list = word_list
-        self.solution = "-----"
         self.tries = 0
         self.finished = False
         self.result = False
-        if self.word_list:
-            self.solution = random.choice(self.word_list)
+        self.solution = random.choice(self.word_list)
 
     def guess(self, word):
         if not word in self.word_list:
             print("not a word")
-            return "-----"
+            pass
         
         self.tries += 1
 
