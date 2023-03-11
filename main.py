@@ -1,6 +1,5 @@
 import wordle_solver as ws
 
-
 if __name__ == '__main__':
     word_list = ws.propagate_word_list()
     times_to_run = 10000;
