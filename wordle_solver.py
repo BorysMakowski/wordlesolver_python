@@ -2,6 +2,7 @@ from solver_match_pattern_a import SolverMatchPatternA
 import game as g
 import random
 import time
+from typing import List, Any
 
 def test(solver, file, times_to_run, word_list, print_to_console = True):
 
@@ -27,12 +28,12 @@ def test(solver, file, times_to_run, word_list, print_to_console = True):
     for i, win_num in enumerate(solver.wonAtGuess):
         file.write("Won at guess " + str(i) + ": " + str(win_num) + "\n")
 
-def reduce_word_list(wordlist,finalSize):
+def reduce_word_list(wordlist: List[Any], finalSize):
     if len(wordlist) > finalSize and finalSize > 5:
         while len(wordlist)>finalSize:
             wordlist.pop(random.randrange(len(wordlist)))
 
-def propagate_word_list():
+def propagate_word_list(file="words_alpha.txt"):
     word_list = []
     with open("words_alpha.txt") as word_file:
         for line in word_file:

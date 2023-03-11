@@ -11,7 +11,6 @@ class SolverMatchPatternA(solver.Solver):
         self.reduced_word_list = []
         self.required_letters=[]
 
-
     def solve(self, game: Game):
         self.required_letters = []
 
@@ -93,7 +92,6 @@ class SolverMatchPatternA(solver.Solver):
             if word[i] not in self.pattern[i]:
                 return False
         return True
-
 
     def contains_required_letters(self,word):
         for required_letter in self.required_letters:

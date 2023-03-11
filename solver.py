@@ -1,6 +1,6 @@
 from typing import List
-from abc import ABC, abstractmethod
 from game import Game
+from abc import ABC, abstractmethod
 
 class Solver(ABC):
     def __init__(self, word_list):
