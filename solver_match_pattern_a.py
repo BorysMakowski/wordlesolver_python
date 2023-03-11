@@ -2,6 +2,7 @@ import random
 import solver
 import time
 from typing import List, Any
+from game import Game
 
 class SolverMatchPatternA(solver.Solver):
     def __init__(self, word_list):
@@ -11,7 +12,7 @@ class SolverMatchPatternA(solver.Solver):
         self.required_letters=[]
 
 
-    def solve(self, game):
+    def solve(self, game: Game):
         self.required_letters = []
 
         self.reset_pattern()

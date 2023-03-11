@@ -1,5 +1,6 @@
 from typing import List
 from abc import ABC, abstractmethod
+from game import Game
 
 class Solver(ABC):
     def __init__(self, word_list):
@@ -10,7 +11,7 @@ class Solver(ABC):
         self.wonAtGuess = [0, 0, 0, 0, 0, 0, 0]
 
     @abstractmethod
-    def solve(self, game):
+    def solve(self, game: Game):
         pass
 
     def get_times_won(self) -> int:
