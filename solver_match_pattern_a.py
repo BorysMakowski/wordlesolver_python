@@ -37,13 +37,7 @@ class SolverMatchPatternA(solver.Solver):
                     self.pattern[i].clear()
                     self.pattern[i].append(prev_result[i])
 
-
-
-
-
-######################################
             self.reduced_word_list = self.apply_pattern()
-######################################
 
             self.wordListSizes[guess_number] += len(self.reduced_word_list)
             rand_num = random.randint(0, len(self.reduced_word_list) - 1)
